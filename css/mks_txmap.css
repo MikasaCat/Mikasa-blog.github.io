@@ -1,0 +1,24 @@
+.card-announcement {
+  /* background: linear-gradient(to top left, #ffc4f7 0%, #94f3d5 100%) !important; */
+  line-height:30px;
+  font-size:14px;
+  font-family: PingFangSC-Regular, sans-serif !important;
+  
+}
+
+/* 公告栏突出颜色 */
+:root {
+  --naokuoteng-color: #ffa600 !important;
+}
+
+.card-announcement .item-headline span{
+  margin-left:0!important;
+}
+
+.card-announcement span{
+  font-weight:bold;
+  font-size:20px!important;
+  color:var(--naokuoteng-color);
+}
+
+
